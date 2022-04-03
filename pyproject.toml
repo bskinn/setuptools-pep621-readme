@@ -1,0 +1,39 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=61",
+  "trove-classifiers",
+  "wheel",
+]
+
+[project]
+name = "setuptools-pep621-readme"
+description = "Test project for PEP621 dynamic readme/long_description"
+keywords = [
+  "setuptools",
+  "pep621",
+  "testing",
+]
+requires-python = ">=3.7"
+dynamic = [
+  "version",
+#   "readme",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+]
+
+[project.license]
+text = "MIT License"
+
+[[project.authors]]
+name = "Brian Skinn"
+email = "brian.skinn@gmail.com"
+
+[project.urls]
+Homepage = "https://github.com/bskinn/setuptools-pep621-readme"
+
+
+[tool.setuptools]
+platforms = [ "any", ]
+license-files = [ "LICENSE.txt", ]
