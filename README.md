@@ -2,6 +2,11 @@
 
 Stub repository for a MVR of readme/long_description misbehavior under PEP621.
 
+Created as part of the bug report at https://github.com/pypa/setuptools/issues/3244.
+
+Archived after confirming the fix in https://github.com/pypa/setuptools/pull/3247
+(released in setuptools v62.0.0).
+
 ----
 
 Source on [GitHub](https://github.com/bskinn/jupyter-tempvars).
